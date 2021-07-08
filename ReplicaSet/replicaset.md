@@ -56,9 +56,6 @@ The type of Object we have to configure this time is ReplicaSet controller. so, 
         - name: nginx-container
           image: nginx
 ```
-###### selector
-It is important thing. selector field under spec specify the labels of the pods, which the replicaSet want to manage. In the above example,
-we mentioned -- "environment: production". Here the replicaSet will manage the pods which containing this labels.
 
 ##### ================================================================
 
